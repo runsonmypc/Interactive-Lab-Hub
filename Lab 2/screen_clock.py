@@ -53,7 +53,7 @@ x = 0
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
-font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
+font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 26)
 
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
@@ -62,9 +62,16 @@ backlight.value = True
 
 while True:
     # Draw a black filled box to clear the image.
-    draw.rectangle((0, 0, width, height), outline=0, fill=0)
+    draw.rectangle((0, 0, width, height), outline=0, fill="#FF0000")
 
-    #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
+    #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py
+    minute = float(time.strftime("%S"))
+    secwidth = (minute/60) * width
+    current_time = time.strftime("Date: "+"%m/%d/%Y\n"+"Time: "+"%H:%M")
+    draw.rectangle((0, 0, secwidth, height), outline = 0, fill = "#008000")
+   
+    y = top
+    draw.text((x, y), current_time, font=font, fill="#000000")
 
     # Display image.
     disp.image(image, rotation)
