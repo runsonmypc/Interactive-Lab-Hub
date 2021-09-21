@@ -190,10 +190,19 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
-\*\*\***Take a video of your PiClock.**\*\*\*
+My modified PiClock displays time in hours and minutes digitally, but the seconds are represented by the screen filling in green.
+
+https://www.youtube.com/watch?v=gN_fHL2Vu8U
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+
+I would like to make the screen flash every 15 minutes, and play an animated gif on the hour.
+Alternatively, I would like to divide the screen into 60 squares and have each minute fill in a square.
+
+For example, 10:22pm would look like this:
+
+![image](https://user-images.githubusercontent.com/45095641/134104653-50026300-1059-48f3-a89e-5a20bd1d9fad.png)
 
 
 # Prep for Part 2
