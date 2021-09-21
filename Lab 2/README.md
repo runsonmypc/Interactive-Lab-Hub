@@ -198,7 +198,7 @@ https://www.youtube.com/watch?v=gN_fHL2Vu8U
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
 I would like to make the screen flash every 15 minutes, and play an animated gif on the hour.
-Alternatively, I would like to divide the screen into 60 squares and have each minute fill in a square.
+To display the time, I would like to divide the screen into 60 squares and have each minute fill in a square. Seconds could then be displayed by the individual squares filling, although this would not be very visible due to the small screen.
 
 For example, 10:22pm would look like this:
 
