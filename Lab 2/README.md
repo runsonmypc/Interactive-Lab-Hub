@@ -232,6 +232,7 @@ As always, make sure you document contributions and ideas from others explicitly
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
+==================================================
 
 For this final part I split up the functions of the different buttons on the screen. With no button pressed, the screen displays the seconds passing as before, with the screen filling as the minute ends. One button displays the minutes and the other displays the hours. Pressing both buttons shows an image.
 
