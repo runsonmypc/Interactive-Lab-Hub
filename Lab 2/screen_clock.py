@@ -4,6 +4,7 @@ import digitalio
 import board
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
+from adafruit_rgb_display.rgb import color565
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
@@ -28,6 +29,15 @@ disp = st7789.ST7789(
     x_offset=53,
     y_offset=40,
 )
+
+# these setup the code for our buttons and the backlight and tell the pi to treat the GPIO pins as digitalIO vs analogIO
+backlight = digitalio.DigitalInOut(board.D22)
+backlight.switch_to_output()
+backlight.value = True
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonB = digitalio.DigitalInOut(board.D24)
+buttonA.switch_to_input()
+buttonB.switch_to_input()
 
 # Create blank image for drawing.
 # Make sure to create image with mode 'RGB' for full color.
@@ -62,16 +72,45 @@ backlight.value = True
 
 while True:
     # Draw a black filled box to clear the image.
-    draw.rectangle((0, 0, width, height), outline=0, fill="#FF0000")
+    #image = Image.new("RGB", (width, height))
+    draw.rectangle((0, 0, width, height), outline=0, fill="#0000FF")
 
-    #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py
+    #Todo: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py
     minute = float(time.strftime("%S"))
     secwidth = (minute/60) * width
-    current_time = time.strftime("Date: "+"%m/%d/%Y\n"+"Time: "+"%H:%M")
-    draw.rectangle((0, 0, secwidth, height), outline = 0, fill = "#008000")
-   
+    current_time = time.strftime("Date: "+"%m/%d/%Y\n")
+    current_date = time.strftime("Time: "+"%H:%M")
     y = top
-    draw.text((x, y), current_time, font=font, fill="#000000")
+
+    if buttonA.value and buttonB.value:
+        draw.rectangle((0, 0, secwidth, height), outline = 0, fill = "#FFA500")
+    else:
+        backlight.value = True  # turn on backlight
+
+    if buttonB.value and not buttonA.value:  # just button A pressed
+        draw.text((x, y), current_time, font=font, fill="#000000") # time
+
+    if buttonA.value and not buttonB.value:  # just button B pressed
+        draw.text((x, y), current_date, font=font, fill="#000000")  # date
+
+    if not buttonA.value and not buttonB.value:  # both pressed
+        image = Image.open("Rickroll.jpg")
+        # Scale the image to the smaller screen dimension
+        image_ratio = image.width / image.height
+        screen_ratio = width / height
+        if screen_ratio < image_ratio:
+            scaled_width = image.width * height // image.height
+            scaled_height = height
+        else:
+            scaled_width = width
+            scaled_height = image.height * width // image.width
+            image = image.resize((scaled_width, scaled_height), Image.BICUBIC)
+
+        # Crop and center the image
+        x = scaled_width // 2 - width // 2
+        y = scaled_height // 2 - height // 2
+        image = image.crop((x, y, x + width, y + height))
+
 
     # Display image.
     disp.image(image, rotation)
