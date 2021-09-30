@@ -234,7 +234,7 @@ You are permitted (but not required) to work in groups and share a turn in; you 
 
 ==================================================
 
-For this final part I split up the functions of the different buttons on the screen. With no button pressed, the screen displays the seconds passing as before, with the screen filling as the minute ends. One button displays the minutes and the other displays the hours. Pressing both buttons shows an image.
+For this final part I split up the functions of the different buttons on the screen. With no button pressed, the screen displays the seconds passing as before, with the screen filling as the minute ends. Similarly, one button displays the minutes and the other displays the hours. Pressing both buttons shows an image.
 
-https://youtu.be/Q7a_-ZGjsYQ
+https://youtu.be/nVvrxWKVeVI
 
