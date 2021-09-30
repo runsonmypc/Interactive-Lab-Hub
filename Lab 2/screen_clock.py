@@ -76,8 +76,14 @@ while True:
     draw.rectangle((0, 0, width, height), outline=0, fill="#0000FF")
 
     #Todo: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py
-    minute = float(time.strftime("%S"))
-    secwidth = (minute/60) * width
+    second = float(time.strftime("%S"))
+    minute = float(time.strftime("%M"))
+    hour = float(time.strftime("%H"))
+
+    secwidth = (second/60) * width
+    minwidth = (minute/60) * width
+    hourwidth = (hour/24) * width
+
     current_time = time.strftime("Date: "+"%m/%d/%Y\n")
     current_date = time.strftime("Time: "+"%H:%M")
     y = top
@@ -88,10 +94,12 @@ while True:
         backlight.value = True  # turn on backlight
 
     if buttonB.value and not buttonA.value:  # just button A pressed
-        draw.text((x, y), current_time, font=font, fill="#000000") # time
+        draw.rectangle((0, 0, minwidth, height), outline = 0, fill = "#00FF00")
+        draw.text((x, y), "Minute", font=font, fill="#000000")
 
     if buttonA.value and not buttonB.value:  # just button B pressed
-        draw.text((x, y), current_date, font=font, fill="#000000")  # date
+        draw.rectangle((0, 0, hourwidth, height), outline = 0, fill = "#FF0000")
+        draw.text((x, y), "Hour", font=font, fill="#000000")  # date
 
     if not buttonA.value and not buttonB.value:  # both pressed
         image = Image.open("Rickroll.jpg")
