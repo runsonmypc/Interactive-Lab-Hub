@@ -137,7 +137,13 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
+
+The device could always be more dynamic - the more able it is to adapt to different questions or phrasings the better it will perform. Increased connectivity would also make it more functional, e.g. being able to connect to it by phone to send and receive mesages directly.
+
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+
+Having a button for important functions that cannot allow for mistakes is one thing that could be added.
+
 3. Make a new storyboard, diagram and/or script based on these reflections.
 
 ## Prototype your system
