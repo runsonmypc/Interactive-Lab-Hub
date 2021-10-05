@@ -70,13 +70,19 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
+The setting is at the office or at home. The players are equities or cryptocurrency traders, so their activity is buying and selling equities or cryptocurrencies. THey are looking at many charts for different assets - the devide would give an indication of the overall money flow of the market. The players are of course trying to make profit from trading.
+
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include a picture of your storyboard here**\*\*
 
+![storyboard](https://user-images.githubusercontent.com/45095641/135761908-e4d1b633-2577-46ee-91c2-b742dfccc415.JPG)
+
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
+
+The main feedback I got is that the light from the screen should be easy to see, and the colors should be easily distinguishable.
 
 
 ## Part B. Act out the Interaction
@@ -86,6 +92,8 @@ Try physically acting out the interaction you planned. For now, you can just pre
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+
+I like my idea still after acting it out. I used the brightest setting on my phone screen to emulate it. Then I checked how easily I can tell what is going on (i.e. what color is on the phone screen) while looking at my computer. It is useful because one can identify a trend change from the corner of one's eye, while maintaining the main focus on the computer screen.
 
 
 ## Part C. Prototype the device
@@ -100,11 +108,14 @@ If you run into technical issues with this tool, you can also use a light switch
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
+Once I had it set up, I found tinkerbelle easy and intuitive to use. I particularly liked the integration of sound, as that was my idea for part 2 of this lab.
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
+
+
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
@@ -119,7 +130,12 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your device might look like here.**\*\*
 
+![device](https://user-images.githubusercontent.com/45095641/135762599-f8f0f42e-cd83-4ec9-8564-402bc77a94f6.JPG)
+
+
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+
+I want the device to be very visible, so it is shaped like a digital bedside alarm clock; the screen faces forward and occupies most of the face.
 
 
 ## Part F. Record
@@ -150,3 +166,5 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+Instead of simply representing the direction of money flow with a single color, I want the device to show a spectrum proportional to the strength of the flow. Furthermore, when the direction of the money flow changes, I want the device to play a sound. Lastly, the buttons on the device would allow one to change between timeframes and assets.
