@@ -173,7 +173,7 @@ The system should:
 
 *Include videos or screencaptures of both the system and the controller.*
 
-![IMG-6840](https://user-images.githubusercontent.com/45095641/137241834-c86f5c82-eae6-493d-82c6-adce49b0a906.jpg)
+![IMG-6840](https://user-images.githubusercontent.com/45095641/137242146-1b656831-4e62-4c5b-a237-a3a37213cfef.jpg)
 
 ![gyros](https://user-images.githubusercontent.com/45095641/137241942-365c95fc-c37e-48c1-af00-9b67ddd0f154.png)
 
