@@ -169,6 +169,7 @@ The system should:
 6. Once the user has chosen a restaurant, the Raspberry offers to re-order the last order made from that restaurant, to which the user can reply "yes" or "no". If there is no order, the Raspberry can text to speech the top items from that restaurant. Alternatively, the Raspberry can send a link by Telegram to the restaurant's menu.
 7. The user can then make their order via speech. The Raspberry will attempt to recognize menu items via speech recognition. It will repeat what the user says for confirmation before adding it to the order. It will connect to Grubhub via API and use the users account to create the order. This is also how it can check for previous orders.
 8. Finally, the order can be placed by pressing a button on the Raspberry or saying a specific confirmation phrase, in order to avoid accidental orders.
+9. The entire order can be scrapped at any time by saying "Raspberry, cancel the order".
 
 *Include videos or screencaptures of both the system and the controller.*
 
@@ -178,15 +179,29 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+
+What worked:
+1. Since Grubhub categorizes all restaurants and automatically sorts them by distance and rating, the device is good at suggesting restaurants by taking advantage of Grubhub's algorithms.
+2. Thanks to how people interact with other devices such as Amazon Alexa or Siri, most people instinctively interact with the device.
+3. All the text to speech components of the interaction worked well.
+
+What didn't work:
+1. The device is not set up to customize the order beyond adding basic food items. It also cannot add comments to the order which the user may want to do.
 
 ### What worked well about the controller and what didn't?
 
-\*\**your answer here*\*\*
+What worked:
+1. The activation of the device works well because it does not rely on speech recognition to start.
+2. The confirmation works well too, as it relies on a button rather or a specific phrase, so there is less likelihood of error.
+
+What didn't work:
+1. The speech to text part of the device is the trickiest, in particular when trying to tell the Raspberry which menu items you want.
+
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\**your answer here*\*\*
+1. The most important thing for a device like this is for it to be dynamic and adaptable. People can give instructions in many different ways, and the device can run into unexpected errors such as the restaurant closing mid-order. Making the device more autonomous would require it to be able to handle such edge cases.
+2. People are sometimes indecisive when it comes to ordering food, so a better system could perhaps make suggestions rather than just ask for input.
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
