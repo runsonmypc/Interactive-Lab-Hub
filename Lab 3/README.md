@@ -192,6 +192,8 @@ What worked:
 
 What didn't work:
 1. The device is not set up to customize the order beyond adding basic food items. It also cannot add comments to the order which the user may want to do.
+2. The system requires internet connectivity to make the API calls to Grubhub, so interruptions in the connection can cause problems.
+
 
 ### What worked well about the controller and what didn't?
 
@@ -212,4 +214,5 @@ What didn't work:
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
 The system could store past orders as favorites that could be more easily selected and executed as orders.
+The system could also remember which restaurants were ordered from in the past, so when a type of cuisine is specified, these restaurants are at the top of the list of suggestions.
 
