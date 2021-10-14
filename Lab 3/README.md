@@ -200,9 +200,11 @@ What didn't work:
 What worked:
 1. The activation of the device works well because it does not rely on speech recognition to start.
 2. The confirmation works well too, as it relies on a button rather or a specific phrase, so there is less likelihood of error.
+3. Selecting the restaurant works well, as the Raspberry only has to detect a spoken number.
 
 What didn't work:
 1. The speech to text part of the device is the trickiest, in particular when trying to tell the Raspberry which menu items you want.
+2. Since the Raspberry Pi does not have AI-optimized hardware (e.g. TPU) nor is connected to an advanced speech recognition system (e.g. Amazon Transcribe), the accuracy while understanding the user's speech leaves a lot of room for improvement.
 
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
