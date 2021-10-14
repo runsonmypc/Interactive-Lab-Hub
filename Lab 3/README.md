@@ -173,6 +173,9 @@ The system should:
 
 *Include videos or screencaptures of both the system and the controller.*
 
+![IMG-6840](https://user-images.githubusercontent.com/45095641/137241483-47f91ff7-7cd6-4a43-85cd-9fbf268d6795.jpg)
+
+
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
@@ -206,5 +209,5 @@ What didn't work:
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\**your answer here*\*\*
+The system could store past orders as favorites that could be more easily selected and executed as orders.
 
