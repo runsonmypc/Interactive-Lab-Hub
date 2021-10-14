@@ -7,5 +7,8 @@ espeak -ven+f2 -k5 -s150 --stdout  "Please tell me your phone number." | aplay
 arecord -D hw:2,0 -f cd -c1 -r 48000 -d 5 -t wav recorded_mono.wav
 python3 test_words.py recorded_mono.wav
 
-
+while IFS= read -r line; do
+    echo "Text read from file: $line"
+    espeak -ven+f2 -k5 -s150 --stdout  "$line" | aplay
+done < result.txt
  
