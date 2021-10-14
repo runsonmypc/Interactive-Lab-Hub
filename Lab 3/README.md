@@ -161,6 +161,15 @@ The system should:
 
 *Document how the system works*
 
+1. The Raspberry is activated via a movement sensor, which turns on the microphone (Raspberry Pi starts listening).
+2. The user says what type of food they want (e.g. Greek, Italian, Fast Food etc.). These are stored internally as pre-defined categories.
+3. The Raspberry processes the speech and tries to match it to one of the pre-defined categories. If the matching fails, it asks again for clarification. If it fails a second time, it tells the user that the category cannot be found. It can behave dynamically by simply searching for the category on Grubhub to see if anything comes up.
+4. Once the match is made, the Raspberry lists the top restaurants in the area for that food category.
+5. The user can then choose one of the restaurants by saying "first" or "second" etc., or they can ask for "more options", which will prompt the Raspberry to give another list of restaurants of that category in the area, if there are any.
+6. Once the user has chosen a restaurant, the Raspberry offers to re-order the last order made from that restaurant, to which the user can reply "yes" or "no". If there is no order, the Raspberry can text to speech the top items from that restaurant. Alternatively, the Raspberry can send a link by Telegram to the restaurant's menu.
+7. The user can then make their order via speech. The Raspberry will attempt to recognize menu items via speech recognition. It will repeat what the user says for confirmation before adding it to the order. It will connect to Grubhub via API and use the users account to create the order. This is also how it can check for previous orders.
+8. Finally, the order can be placed by pressing a button on the Raspberry or saying a specific confirmation phrase, in order to avoid accidental orders.
+
 *Include videos or screencaptures of both the system and the controller.*
 
 ## Test the system
