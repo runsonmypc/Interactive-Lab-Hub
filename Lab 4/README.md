@@ -267,6 +267,18 @@ Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
 
+Front view:
+
+![image_67149057](https://user-images.githubusercontent.com/45095641/137840415-4b379e99-7855-485e-a30f-87250f819342.JPG)
+
+![image_67203073](https://user-images.githubusercontent.com/45095641/137840432-22fe1093-5138-4749-9089-a68177512a32.JPG)
+
+Back panel:
+
+![image_67171329](https://user-images.githubusercontent.com/45095641/137840441-fc1a24b5-c9d4-40ef-af9d-5a72ae47340a.JPG)
+
+![image_67134721](https://user-images.githubusercontent.com/45095641/137840449-2c3d0457-bf15-428f-8941-23faf0e3ba4c.JPG)
+
 
 LAB PART 2
 
