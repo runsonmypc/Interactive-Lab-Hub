@@ -240,9 +240,28 @@ My idea is for an easily portable motion sensor that can be installed somewhere 
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+My first sketch is reminiscent of a typical speed radar. Functionally it would probably work quite well, but the installation would be a lot more permanent than I would like. The good thing about this design is that it would have a back panel that one could use to access the screen and controls for the device.
+
+The second sketch raises the question of how to keep the sensor clean/clear when installing it into the road itself. Furthermore, it would not be an easy installation at all, and certainly not portable. It could potentially be adjusted to be installed inside of pre-existing structures in the road such as cat-eyes.
+
+The third sketch makes me wonder what the physical limitations of the detector are. It is quite likely that some overpasses would be too far above the road for the device to work properly. The good thing about it is that it could be installed fairly easily and would provide access to the user from the overpass itself.
+
+The fourth sketch makes me question whether the design makes the device too vulnerable to the elements and physical damage. The good thing about this device is that it is user-oriented, but it makes me wonder why someone would want to use a device like this in such a manner. Perhaps the functionality for this design could be a little different; more oriented towards home-use than roadside use.
+
+The fifth sketch again brings into question the difficulty of installing the device. On the plus side, it could be made quite secure with this design, and depending on the tunnel, would miss fewer cars since the tunnel forces cars to follow very similar paths.
+
+All the designs raise the question of how one would supply the device with power. It could simply use a battery pack, but the designs that incorporate poles (and look more like traditional speed radars) could be made more permanent by having an actual power cable coming up the pole. However, since the design is supposed to be portable, I am less inclined to use those designs, or at least to incorporate a power cable - using a battery pack makes more sense for this use case.
+
+
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
+I chose the first (1) design for my prototype.
+
+
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+I chose the first design because it is a lot more feasible and easy to test, but also because I want to design it such that it has a screen and controls on the opposite side of the sensor (and hidden behind a panel). I want the sensor to face the road, but not any of the other parts of the device. I want it to be minimally exposed to potential physical damage, so everything but a small opening for the sensor would be hidden inside the box or behind the rear panel. The pole component of the design seems like it would get in the way, however, so for my rough prototype I will only create the box with the back panel, which is a more portable and modular design.
+
 
 Build a cardbord prototype of your design.
 
