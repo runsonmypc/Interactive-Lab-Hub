@@ -220,6 +220,18 @@ Think about how you want to present the information about what your sensor is se
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
+1.
+![CamScanner 10-18-2021 21 30_1](https://user-images.githubusercontent.com/45095641/137829417-73e33591-7a7c-485d-9e63-d71f839cc174.jpg)
+2.
+![CamScanner 10-18-2021 21 30_2](https://user-images.githubusercontent.com/45095641/137829418-df79e919-f0dc-4212-a164-730138284d09.jpg)
+3.
+![CamScanner 10-18-2021 21 30_3](https://user-images.githubusercontent.com/45095641/137829419-ec952f3d-5479-440e-83f7-473fc5fd5716.jpg)
+4.
+![CamScanner 10-18-2021 21 30_4](https://user-images.githubusercontent.com/45095641/137829420-1d46a64f-aca4-48b8-b3d4-df0f7879fe16.jpg)
+5.
+![CamScanner 10-18-2021 21 30_5](https://user-images.githubusercontent.com/45095641/137829416-2f945173-41f2-4985-ada1-f67ddd9cf2b5.jpg)
+
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
