@@ -220,6 +220,8 @@ Think about how you want to present the information about what your sensor is se
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
+My idea is for an easily portable motion sensor that can be installed somewhere on the road in order to detect cars. It would be able to count the cars as well as potentially identifying the color of the cars for various purposes such as law enforcement.
+
 1.
 ![CamScanner 10-18-2021 21 30_1](https://user-images.githubusercontent.com/45095641/137829417-73e33591-7a7c-485d-9e63-d71f839cc174.jpg)
 
