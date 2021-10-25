@@ -261,6 +261,7 @@ I chose the first (1) design for my prototype.
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
 I chose the first design because it is a lot more feasible and easy to test, but also because I want to design it such that it has a screen and controls on the opposite side of the sensor (and hidden behind a panel). I want the sensor to face the road, but not any of the other parts of the device. I want it to be minimally exposed to potential physical damage, so everything but a small opening for the sensor would be hidden inside the box or behind the rear panel. The pole component of the design seems like it would get in the way, however, so for my rough prototype I will only create the box with the back panel, which is a more portable and modular design.
+Another reason I chose this prototype is that it could be easily adapted to suit other purposes, since additional components can be installed inside of the box.
 
 
 Build a cardbord prototype of your design.
@@ -315,11 +316,28 @@ You can then call whichever control you like rather than setting a fixed value f
 
 We encourage you to try using these controls, **while** paying particular attention to how the interaction changes depending on the position of the controls. For example, if you have your servo rotating a screen (or a piece of cardboard) from one position to another, what changes about the interaction if the control is on the same side of the screen, or the opposite side of the screen? Trying and retrying different configurations generally helps reveal what a design choice changes about the interaction -- _make sure to document what you tried_!
 
+
+I tested the basic functionality of the servo and decided to incorporate it into my prototype.
+
 ### Part F
 ### Record
 
-Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
+For the second part of this lab I decided to change the functionality of the device, while still using the original form of the prototype as the base for my design. I decided that the car-counting functionality was too basic and boring, based on my own opinion as well as feedback from others. Instead, I retained the motion sensor as a trigger for the rest of the device's functionality. The design is now used for automatic doors with voice recognition. The motivation behind this is to serve people who are wheelchair-bound. They will be able to open doors using only their voice, with the added benefit of the function only triggering when near the motion sensor, which would be placed near the door itself.
+
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
+
+
+
 * "Works like": shows what the device can do
+
+The device is composed of the following: a motion sensor, a microphone, a speaker, and a servo arm to serve as a proxy for the door itself.
+The functionality is as follows:
+
+1. The user must approach the motion sensor, which would be located near a door. This would trigger the Raspberry Pi to "listen" for the activation phrase.
+2. The user must then say "open door"
+3. The Raspberry Pi will then open the door and wait for a little while after the last movement detected by the motion detector before closing
+
+The idea is that a wheelchair-bound person can seamlessly navigate their way, be it at home or any other building, without having to stop to press buttons or make any other physical effort besides speaking. In particular, persons who are paralyzed and require a text-to-speech device (or similar) to speak could still operate the doors, as my design would be able to register their their commands.
+
 * "Acts like": shows how a person would interact with the device
 
