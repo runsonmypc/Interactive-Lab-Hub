@@ -343,8 +343,12 @@ The idea is that a wheelchair-bound person can seamlessly navigate their way, be
 * "Acts like": shows how a person would interact with the device
 
 ![image_67170561](https://user-images.githubusercontent.com/45095641/138780339-dc23294f-0499-46a7-9d99-ba37cf3c404f.JPG)
+
 ![image_67140097](https://user-images.githubusercontent.com/45095641/138780351-37540801-7b6c-4ca2-bcb4-afc9f0de1be9.JPG)
+
 ![image_67138305](https://user-images.githubusercontent.com/45095641/138780363-3c78b627-8f4e-4820-96a5-77958e12b41c.JPG)
+
 ![image_67139841](https://user-images.githubusercontent.com/45095641/138780357-3b1cff93-d616-42ac-8802-3d98f0b4b35e.JPG)
+
 ![image_67121153](https://user-images.githubusercontent.com/45095641/138780370-5027c188-300a-4d27-96b9-a6f58e3d2cf4.JPG)
 
