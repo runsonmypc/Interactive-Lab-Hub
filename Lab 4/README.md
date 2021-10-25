@@ -324,13 +324,10 @@ I tested the basic functionality of the servo and decided to incorporate it into
 
 For the second part of this lab I decided to change the functionality of the device, while still using the original form of the prototype as the base for my design. I decided that the car-counting functionality was too basic and boring, based on my own opinion as well as feedback from others. Instead, I retained the motion sensor as a trigger for the rest of the device's functionality. The design is now used for automatic doors with voice recognition. The motivation behind this is to serve people who are wheelchair-bound. They will be able to open doors using only their voice, with the added benefit of the function only triggering when near the motion sensor, which would be placed near the door itself.
 
-* "Looks like": shows how the device should look, feel, sit, weigh, etc.
+Below is a sketch of the final design for the device (not to scale).
 
 ![image_6483441(1)](https://user-images.githubusercontent.com/45095641/138782243-e6883b54-435c-4162-aeeb-82b399e888ff.JPG)
 
-
-
-* "Works like": shows what the device can do
 
 The device is composed of the following: a motion sensor, a microphone, a speaker, and a servo arm to serve as a proxy for the door itself.
 The functionality is as follows:
@@ -342,7 +339,7 @@ The functionality is as follows:
 
 The idea is that a wheelchair-bound person can seamlessly navigate their way, be it at home or any other building, without having to stop to press buttons or make any other physical effort besides speaking. In particular, persons who are paralyzed and require a text-to-speech device (or similar) to speak could still operate the doors, as my design would be able to register their their commands.
 
-* "Acts like": shows how a person would interact with the device
+Below is a visual description of how the interaction would work in practice.
 
 ![image_67170561](https://user-images.githubusercontent.com/45095641/138780339-dc23294f-0499-46a7-9d99-ba37cf3c404f.JPG)
 
