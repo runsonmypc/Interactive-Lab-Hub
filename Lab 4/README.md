@@ -326,7 +326,8 @@ For the second part of this lab I decided to change the functionality of the dev
 
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
 
-[CamScanner 10-25-2021 18.51.pdf](https://github.com/runsonmypc/Interactive-Lab-Hub/files/7413956/CamScanner.10-25-2021.18.51.pdf)
+![image_6483441(1)](https://user-images.githubusercontent.com/45095641/138782243-e6883b54-435c-4162-aeeb-82b399e888ff.JPG)
+
 
 
 * "Works like": shows what the device can do
