@@ -326,6 +326,7 @@ For the second part of this lab I decided to change the functionality of the dev
 
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
 
+[CamScanner 10-25-2021 18.51.pdf](https://github.com/runsonmypc/Interactive-Lab-Hub/files/7413956/CamScanner.10-25-2021.18.51.pdf)
 
 
 * "Works like": shows what the device can do
@@ -346,9 +347,9 @@ The idea is that a wheelchair-bound person can seamlessly navigate their way, be
 
 ![image_67140097](https://user-images.githubusercontent.com/45095641/138780351-37540801-7b6c-4ca2-bcb4-afc9f0de1be9.JPG)
 
-![image_67138305](https://user-images.githubusercontent.com/45095641/138780363-3c78b627-8f4e-4820-96a5-77958e12b41c.JPG)
-
 ![image_67139841](https://user-images.githubusercontent.com/45095641/138780357-3b1cff93-d616-42ac-8802-3d98f0b4b35e.JPG)
+
+![image_67138305](https://user-images.githubusercontent.com/45095641/138780363-3c78b627-8f4e-4820-96a5-77958e12b41c.JPG)
 
 ![image_67121153](https://user-images.githubusercontent.com/45095641/138780370-5027c188-300a-4d27-96b9-a6f58e3d2cf4.JPG)
 
