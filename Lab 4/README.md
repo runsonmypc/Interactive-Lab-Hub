@@ -335,7 +335,8 @@ The functionality is as follows:
 
 1. The user must approach the motion sensor, which would be located near a door. This would trigger the Raspberry Pi to "listen" for the activation phrase.
 2. The user must then say "open door"
-3. The Raspberry Pi will then open the door and wait for a little while after the last movement detected by the motion detector before closing
+3. The Raspberry Pi will then open the door (modeled by the servo in my prototype)
+4. The Raspberry Pi will then wait for a little while after the last movement detected by the motion detector before closing
 
 The idea is that a wheelchair-bound person can seamlessly navigate their way, be it at home or any other building, without having to stop to press buttons or make any other physical effort besides speaking. In particular, persons who are paralyzed and require a text-to-speech device (or similar) to speak could still operate the doors, as my design would be able to register their their commands.
 
