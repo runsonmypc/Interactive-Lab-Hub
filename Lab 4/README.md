@@ -351,3 +351,10 @@ Below is a visual description of how the interaction would work in practice.
 
 ![image_67121153](https://user-images.githubusercontent.com/45095641/138780370-5027c188-300a-4d27-96b9-a6f58e3d2cf4.JPG)
 
+
+Functionality test video:
+
+https://user-images.githubusercontent.com/45095641/139155888-d82ed634-6a20-44c9-8b70-28bdb26ae9ce.MOV
+
+
+
