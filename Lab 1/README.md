@@ -173,3 +173,7 @@ Do last week’s assignment again, but this time:
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
 
 Instead of simply representing the direction of money flow with a single color, I want the device to show a spectrum proportional to the strength of the flow. Furthermore, when the direction of the money flow changes, I want the device to play a sound. Lastly, the buttons on the device would allow one to change between timeframes and assets.
+
+![image_67156225](https://user-images.githubusercontent.com/45095641/146602044-90f8bc7e-8ec7-4d24-993a-452755bd0ce6.JPG)
+
+
