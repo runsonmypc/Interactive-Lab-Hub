@@ -176,4 +176,7 @@ Instead of simply representing the direction of money flow with a single color, 
 
 ![image_67156225](https://user-images.githubusercontent.com/45095641/146602044-90f8bc7e-8ec7-4d24-993a-452755bd0ce6.JPG)
 
+Final costumed design:
+
+![image](https://user-images.githubusercontent.com/45095641/146602212-3161f41f-4aed-4745-bb90-d016804e20b6.png)
 
