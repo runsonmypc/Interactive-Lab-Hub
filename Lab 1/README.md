@@ -142,9 +142,12 @@ I want the device to be very visible, so it is shaped like a digital bedside ala
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
-\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+https://www.youtube.com/watch?v=jeE3tEhL88A
 
+One thing to note is that the light from the device looked yellow rather than red in the video, although the two colors were still distinct.
+
+\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
+I used some of the material and ideas from Donal Lowsley, as he had a similar design idea as me.
 
 
 # Staging Interaction, Part 2 
@@ -157,6 +160,8 @@ This describes the second week's work for this lab activity.
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
 \*\***Summarize feedback from your partners here.**\*\*
+
+N/A
 
 ## Make it your own
 
